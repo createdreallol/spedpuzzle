@@ -37,7 +37,7 @@ function init() {
     handleSchoologyURL();
   }
   else {
-    alert("Please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
+    alert("Woah bucko please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
   }
 }
 
