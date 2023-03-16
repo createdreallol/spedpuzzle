@@ -5,7 +5,7 @@ if (typeof document.dev_env != "undefined") {
 }
 else {
   //get resources off of github to not inflate the jsdelivr stats
-  base_url = "https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main";
+  base_url = "https://raw.githubusercontent.com/createdreallol/spedpuzzle/main";
 }
 
 function http_get(url, callback, headers=[], method="GET", content=null) {
@@ -24,7 +24,7 @@ function http_get(url, callback, headers=[], method="GET", content=null) {
 }
 
 function init() {
-  if (window.location.hostname == "edpuzzle.hs.vc") {
+  if (window.location.hostname == "spedpuzzle.vercel.app") {
     alert("To use this, drag this button into your bookmarks bar. Then, run it when you're on an Edpuzzle assignment.");
   }
   else if ((/https{0,1}:\/\/edpuzzle.com\/assignments\/[a-f0-9]{1,30}\/watch/).test(window.location.href)) {
