@@ -5,7 +5,7 @@ if (typeof document.dev_env != "undefined") {
 }
 else {
   //get resources off of github to not inflate the jsdelivr stats
-  base_url = "https://raw.githubusercontent.com/createdreallol/spedpuzzle/";
+  base_url = "https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main";
 }
 
 function http_get(url, callback, headers=[], method="GET", content=null) {
@@ -37,7 +37,7 @@ function init() {
     handleSchoologyURL();
   }
   else {
-    alert("Woah bucko please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
+    alert("Please run this script on an Edpuzzle assignment. For reference, the URL should look like this:\nhttps://edpuzzle.com/assignments/{ASSIGNMENT_ID}/watch");
   }
 }
 
@@ -193,6 +193,8 @@ function openPopup(assignment) {
     <p style="font-size: 12px" id="loading_text"></p>
   </div>
   <hr>
+  <p style="font-size: 12px">Made by: <a target="_blank" href="https://github.com/createdreallol">createdreallol</a> on Github | Website: <a target="_blank" href="https://spedpuzzle.vercel.app/">spedpuzzle.vercel.app</a> | Source code: <a target="_blank" href="https://github.com/createdreallol/spedpuzzle">createdreallol/spedpuzzle</a></p>
+  <p style="font-size: 12px">Licenced under the <a target="_blank" href="https://github.com/createdreallol/spedpuzzle/blob/main/LICENSE">GNU GPL v3</a>. Do not reupload or redistribute without abiding by those terms.</p>`;
   popup = window.open("about:blank", "", "width=600, height=400");
   popup.document.write(base_html);
 
