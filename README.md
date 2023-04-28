@@ -3,20 +3,10 @@
 ![jsdelivr weekly badge](https://data.jsdelivr.com/v1/package/gh/ading2210/edpuzzle-answers/badge/week)
 ![jsdelivr daily badge](https://data.jsdelivr.com/v1/package/gh/ading2210/edpuzzle-answers/badge/day)
 
-<img src="https://raw.githubusercontent.com/ading2210/edpuzzle-answers/main/static/images/screenshot4.png" alt="A screenshot of the generated webpage" width="500"/>
+<img src="https://raw.githubusercontent.com/creadedreallol/spedpuzzle/main/static/images/screenshot4.png" alt="A screenshot of the generated webpage" width="500"/>
 
 This bookmarklet can fetch the answers for the multiple choice questions on any Edpuzzle assignment. It can also skip the entire video, as well as automatically answer the questions and change the video speed.
 
-Discord server: [edpuzzle.hs.vc/discord.html](https://edpuzzle.hs.vc/discord.html)
-
-## Contents:
-  - [Demo](#demo)
-  - [Features](#features)
-  - [Limitations](#limitations)
-  - [Copyright Notice](#copyright-notice)
-  - [Creating the bookmarklet](#creating-the-bookmarklet)
-  - [Using the bookmarklet](#using-the-bookmarklet)
-  - [Credits](#credits)
 
 ## Demo: 
 https://user-images.githubusercontent.com/71154407/199671842-c3016f8c-8c7f-4526-b274-5bdd48f3a131.mp4
@@ -40,17 +30,6 @@ Note: This video was recorded with an older version of the script, so the GUI sh
 ## Limitations:
  - This isn't able to answer open-ended questions or audio responses. Though in the future, I might use something like ChatGPT to complete those automatically. 
  - This doesn't currently work for most Edpuzzles that are embedded in a third party site. However, the script does work for Edpuzzles embeded in Canvas and Schoology.
-
-## Copyright Notice:
-This project is licenced under the [GNU GPL v3](https://github.com/ading2210/edpuzzle-answers/blob/main/LICENSE). Thus, you are not allowed to:
- - Reupload any part of the source code without crediting this repository.
- - Fork this repository, then change or remove the license.
- - Fork this project without linking to your modified source code. 
-
-Forking or redistributing code from this repository is fine, as long as you abide by the terms of the GPL. However, if you don't, then I have every right to submit a DMCA takedown. Also, please don't try to take credit for work that is not yours by changing or removing the credits. Editing a couple of lines to remove my name and reuploading it doesn't make you look cool.
-
-## Creating the bookmarklet:
-A video tutorial can be found [here](https://www.youtube.com/watch?v=zxZzB2KXCkw).
 
 ### Method 1:
  1. Navigate to [https://edpuzzle.hs.vc](https://edpuzzle.hs.vc).
@@ -79,9 +58,3 @@ javascript: fetch("https://cdn.jsdelivr.net/gh/ading2210/edpuzzle-answers@latest
  3. Re-run the bookmarklet to launch the full script.
  4. If this doesn't work, make sure you allow popups on both Edpuzzle and Canvas.
 
-## Credits:
-The code for the video skipper is based off of [this](https://github.com/ASmallYawn/EdpuzzleSkipper), with permission from the original author and some major refactoring.
-
-All other code has been written solely by me, [ading2210](https://github.com/ading2210).
-
-This project is licensed under the GNU General Public License v3.0.
